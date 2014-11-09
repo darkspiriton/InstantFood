@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.food.instant.instantfood" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Registro"
+            android:label="@string/title_activity_registro"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".MenuPrincipal"
+            android:label="@string/title_activity_menu_principal" >
+        </activity>
+        <activity
+            android:name=".Mapa"
+            android:label="Instant Food" >
+        </activity>
+        <activity
+            android:name=".Restaurante"
+            android:label="Instant Food" >
+        </activity>
+        <activity
+            android:name=".Recomendado"
+            android:label="Instant Food" >
+        </activity>
+        <activity
+            android:name=".Reservar"
+            android:label="Instant Food" >
+        </activity>
+        <activity
+            android:name=".Favorito"
+            android:label="Instant Food" >
+        </activity>
+        <activity
+            android:name=".Categorias"
+            android:label="@string/title_activity_categorias" >
+        </activity>
+        <activity
+            android:name=".Detalle"
+            android:label="@string/title_activity_detalle" >
+        </activity>
+    </application>
+
+</manifest>

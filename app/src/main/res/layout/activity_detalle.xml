@@ -1,0 +1,325 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro"
+    android:background="#fff2f0e8"
+    android:visibility="visible">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:background="#fff2f0e8"
+        >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff2f0e8"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Datos"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#ff4895c3"
+                android:gravity="center"
+                android:textColor="#ffffffff" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="4"
+                android:paddingLeft="5dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="3"
+                    android:paddingLeft="5dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:text="La Plazita"
+                        android:paddingTop="5dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="fill_vertical"
+                        android:clickable="true"
+                        android:background="#fff2f0e8"
+                        android:textSize="20dp"
+                        android:textColor="#ff3f3f3f"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Cafeteria, Sandwiches"
+
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="fill_vertical"
+                        android:clickable="true"
+                        android:background="#fff2f0e8"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:text="Av. Diagonal 308 - Miraflores - Lima"
+
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="fill_vertical"
+                        android:clickable="true"
+                        android:background="#fff2f0e8"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="2">
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/fav"
+                            android:paddingBottom="10dp"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/fav"
+                            android:paddingBottom="10dp"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/fav"
+                            android:paddingBottom="10dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:src="@drawable/plato"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Menu"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#ff4895c3"
+                android:gravity="center"
+                android:textColor="#ffffffff" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                android:paddingLeft="10dp">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/menu"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:text="Aji de Gallina"
+                    android:paddingLeft="5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="fill_vertical"
+                    android:clickable="true"
+                    android:background="#fff2f0e8"
+                    android:textColor="#ff3f3f3f" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/menu"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:text="Trufa Tailandesa"
+                    android:paddingLeft="5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="fill_vertical"
+                    android:clickable="true"
+                    android:background="#fff2f0e8"
+                    android:textColor="#ff3f3f3f" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                android:paddingLeft="10dp">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/menu"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:text="Lomo Saltado"
+                    android:paddingLeft="5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="fill_vertical"
+                    android:clickable="true"
+                    android:background="#fff2f0e8"
+                    android:textColor="#ff3f3f3f" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/menu"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:text="Esparragos estilo aleman"
+                    android:paddingLeft="5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="fill_vertical"
+                    android:clickable="true"
+                    android:background="#fff2f0e8"
+                    android:textColor="#ff3f3f3f" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                android:paddingLeft="10dp">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/menu"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:text="Filete al Mongolin"
+                    android:paddingLeft="5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="fill_vertical"
+                    android:clickable="true"
+                    android:background="#fff2f0e8"
+                    android:textColor="#ff3f3f3f" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/menu"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:text="Tallarines al Pesto"
+                    android:paddingLeft="5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="fill_vertical"
+                    android:clickable="true"
+                    android:background="#fff2f0e8"
+                    android:textColor="#ff3f3f3f" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Comentarios"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#ff4895c3"
+                android:gravity="center"
+                android:textColor="#ffffffff" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/female"
+                    android:paddingTop="5dp"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:text="Josselyn M"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="fill_vertical"
+                    android:clickable="true"
+                    android:background="#fff2f0e8"
+                    android:textColor="#ff3f3f3f" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:text="Sándwich originales de gran calidad y variedad acompañados de unos exquisitos jugos y un precio justo para lo que ofrecen aparte de encontrarse en zonas específicas"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="fill_vertical"
+                    android:clickable="true"
+                    android:background="#fff2f0e8"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atras"
+        android:id="@+id/buttAtrasDetalle"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="#ff6e6563"
+        android:textColor="#ffffffff"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"/>
+
+</RelativeLayout>

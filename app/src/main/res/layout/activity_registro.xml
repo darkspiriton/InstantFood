@@ -1,0 +1,152 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro"
+    android:background="#fff2f0e8"
+    android:visibility="visible">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:background="#fff2f0e8">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:background="#fff2f0e8"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Crea una cuenta en Instant Food y prueba todo tipo de comidas"
+                android:id="@+id/tv1"
+                android:layout_below="@+id/logoEmoticon"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/logoEmoticon"
+                android:src="@drawable/emoticon"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:src="@drawable/email"
+                android:layout_toLeftOf="@+id/etCorreo"
+                android:layout_alignTop="@+id/etCorreo"
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/key"
+                android:src="@drawable/key"
+                android:layout_toLeftOf="@+id/etPass1"
+                android:layout_alignTop="@+id/etPass1"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/key2"
+                android:src="@drawable/key"
+                android:layout_toLeftOf="@+id/etPass2"
+                android:layout_alignTop="@+id/etPass2"
+
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/etCorreo"
+                android:layout_below="@+id/tv1"
+                android:layout_centerHorizontal="true"
+                android:hint="Correo"
+                android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etPass1"
+                android:layout_below="@+id/etCorreo"
+                android:layout_centerHorizontal="true"
+                android:hint="Contraseña"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etPass2"
+                android:layout_below="@+id/etPass1"
+                android:layout_centerHorizontal="true"
+                android:hint="Repetir Contraseña"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/tv2"
+                android:layout_below="@+id/etPass2"
+                android:layout_marginTop="40dp"
+                android:visibility="invisible"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@+id/tv2"
+                android:layout_marginTop="40dp"
+                android:visibility="invisible"/>
+
+            </RelativeLayout>
+
+
+
+    </ScrollView>
+
+  <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Aceptar"
+        android:id="@+id/buttonAceptar"
+        android:layout_above="@+id/buttonCancelar"
+        android:layout_centerHorizontal="true"
+        android:background="#ff6e6563"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Cancelar"
+        android:id="@+id/buttonCancelar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ffff6f6c"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>
+
+

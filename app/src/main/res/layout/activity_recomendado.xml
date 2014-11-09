@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro"
+    android:background="#fff2f0e8"
+    android:visibility="visible">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:background="#fff2f0e8">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff2f0e8"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Spago Klein"
+                android:gravity="center"
+                android:textColor="#ff26934d"
+                android:paddingTop="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="2">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/rec1"
+                    android:src="@drawable/anun1"/>
+
+            </LinearLayout>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Camarones al Tortolencio"
+                android:gravity="center"
+                android:textColor="#ff26934d" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/rec2"
+                    android:src="@drawable/anun2"/>
+
+            </LinearLayout>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Esparragos a la norteña"
+                android:gravity="center"
+                android:textColor="#ff26934d" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/rec3"
+                    android:src="@drawable/anun3"/>
+
+            </LinearLayout>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Pitrufi Exotica"
+                android:gravity="center"
+                android:textColor="#ff26934d" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/rec4"
+                    android:src="@drawable/anun4"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atras"
+        android:id="@+id/buttAtrasRecomendado"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="#ff6e6563"
+        android:textColor="#ffffffff"/>
+
+</RelativeLayout>
+
+
+
+
+
